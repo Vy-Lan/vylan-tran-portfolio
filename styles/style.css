@@ -69,7 +69,7 @@ html {
   --primary-text-color: #222;
   --accent-color: #7761a6;
   --overlay-color: #55002fab;
-  --hyperlink-color: rgb(255, 69, 0);
+  --hyperlink-color: #55002fab;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
   --body-typeface: 'Noto Sans', sans-serif;;
@@ -128,6 +128,11 @@ h1 {
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
   color: var(--royal-purple);
+}
+
+.custom-navigation {
+  font-size: 1.35rem;
+  text-transform: uppercase;
 }
 
 .hero-headline {
@@ -255,7 +260,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 2rem;
   align-items: center;
 }
 
