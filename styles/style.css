@@ -112,6 +112,21 @@ img, svg {
 
 
 
+/* .cls-1 {fill: red;}
+.cls-1:hover {fill: yellowgreen;}
+.cls-2 {fill:green;}
+.cls-3 {fill:blue;}
+.cls-3:hover {fill:yellowgreen;} */
+
+#v {fill:green;}
+#v:hover {fill:yellow;}
+#m {fill: red;}
+#m:hover {fill:blue;}
+#top-petal {fill: purple;}
+#bottom-petal {fill: orange;}
+#left-petal {fill: red;}
+#right-petal {fill:green}
+
 /* Global & Mobile Typography 
 
 ████████ ██    ██ ██████   ██████   ██████  ██████   █████  ██████  ██   ██ ██    ██ 
