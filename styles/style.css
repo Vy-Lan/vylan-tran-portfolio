@@ -46,7 +46,6 @@ No media query for `xs` since this is the default in Bootstrap
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  cursor: url("../assets/temp/up-cursor.png"), auto !important;
 }
 
 *,
@@ -539,9 +538,7 @@ p {
   place-items: center;
   width: 100%;
   min-height: 100vh;
-  background:
-    linear-gradient(0deg, #66023C, rgba(236, 200, 255, 0.759)),
-    url(/assets/temp/noise.svg);
+  background:#68c3cf;
   /* https://grainy-gradients.vercel.app/ */
 }
 
