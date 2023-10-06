@@ -150,7 +150,12 @@ h1 {
 }
 
 .hero-headline {
-  font-size: 6rem;
+  font-size: 12rem;
+  text-transform: uppercase;
+}
+
+.hero-subheadline {
+  color: black;
 }
 
 .project-title {
