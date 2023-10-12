@@ -10,9 +10,8 @@ Add the Google Fonts you want, remove the ones you don't.
 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 
 /*
 
@@ -26,7 +25,7 @@ Imported stylesheets. Remove the ones you do not want to use.
 
 */
 
-@import url('scroll-to-top.css');
+@import url("scroll-to-top.css");
 
 /*
 
@@ -71,12 +70,12 @@ html {
   --hyperlink-color: #55002fab;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
-  --body-typeface: 'Noto Sans', sans-serif;;
-  --heading-typeface: 'Ubuntu Mono', monospace;
-  --project-title-typeface: 'Ubuntu Mono', monospace;
+  --body-typeface: "Noto Sans", sans-serif;
+  --heading-typeface: "Ubuntu Mono", monospace;
+  --project-title-typeface: "Ubuntu Mono", monospace;
   --off-white: #f8f8ff;
   --isabelline: #f4f0ec;
-  --royal-purple: #70003D;
+  --royal-purple: #70003d;
   --alice-blue: #f0f8ff;
   --alabaster: #f2f0e6;
   --floral-white: #fffaf0;
@@ -84,7 +83,6 @@ html {
   --alt-background-color: rgb(255, 255, 255);
   --text-selection-background-color: #555555;
 }
-
 
 body {
   font-family: var(--body-typeface);
@@ -100,17 +98,15 @@ body {
 }
 
 /* Making all images responsive */
-img, svg {
+img,
+svg {
   max-width: 100%;
   height: auto;
   vertical-align: top;
   /* Removes the gap/space in inline elements for text descenders. */
   object-fit: contain;
   /* This is optional. Also try cover or leave out entirely. */
-
 }
-
-
 
 /* .cls-1 {fill: red;}
 .cls-1:hover {fill: yellowgreen;}
@@ -118,14 +114,30 @@ img, svg {
 .cls-3 {fill:blue;}
 .cls-3:hover {fill:yellowgreen;} */
 
-#v {fill:green;}
-#v:hover {fill:yellow;}
-#m {fill: red;}
-#m:hover {fill:blue;}
-#top-petal {fill: purple;}
-#bottom-petal {fill: orange;}
-#left-petal {fill: red;}
-#right-petal {fill:green}
+#v {
+  fill: green;
+}
+#v:hover {
+  fill: yellow;
+}
+#m {
+  fill: red;
+}
+#m:hover {
+  fill: blue;
+}
+#top-petal {
+  fill: purple;
+}
+#bottom-petal {
+  fill: orange;
+}
+#left-petal {
+  fill: red;
+}
+#right-petal {
+  fill: green;
+}
 
 /* Global & Mobile Typography 
 
@@ -194,11 +206,22 @@ h4 {
 
 /* Hyperlink Styles */
 
-a:link    { color: var(--hyperlink-color); text-decoration: none;}
-a:visited { color: var(--hyperlink-color); }
-a:hover   { color: var(--hover-color); }
-a:focus   { outline: 1px solid var(--accent-color); }
-a:active  { color: var(--hover-color); /* Tap on mobile */ }
+a:link {
+  color: var(--hyperlink-color);
+  text-decoration: none;
+}
+a:visited {
+  color: var(--hyperlink-color);
+}
+a:hover {
+  color: var(--hover-color);
+}
+a:focus {
+  outline: 1px solid var(--accent-color);
+}
+a:active {
+  color: var(--hover-color); /* Tap on mobile */
+}
 
 .navigation-arrow {
   color: var(--alt-background-color);
@@ -235,7 +258,7 @@ p {
 }
 
 .fineprint {
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
 
 .heart {
@@ -254,10 +277,8 @@ p {
   font-size: 1.25rem;
   line-height: 1.3;
   margin-bottom: 1rem;
-  color: black
+  color: black;
 }
-
-
 
 /* Hero 
 
@@ -325,7 +346,6 @@ p {
   flex-direction: column;
 }
 
-
 /* Work Page Layout
 
 ██     ██  ██████  ██████  ██   ██     ██████   █████   ██████  ███████ 
@@ -343,7 +363,7 @@ p {
 /* Padding around work grid and project page */
 .portfolio,
 .project-wrapper {
-  padding: .25rem
+  padding: 0.25rem;
 }
 
 /* Defining the work page grid */
@@ -378,16 +398,13 @@ p {
   flex-direction: column;
   padding: 1em;
   background-color: var(--overlay-color);
-  transition: opacity .3s, visibility .3s;
+  transition: opacity 0.3s, visibility 0.3s;
 }
 
 .work-page-grid-item:hover .overlay {
   visibility: visible;
-  opacity: .8;
+  opacity: 0.8;
 }
-
-
-
 
 /* 
 
@@ -437,7 +454,6 @@ p {
 ██       ██████   ██████     ██    ███████ ██   ██ 
                                                    
 */
-
 
 .global-footer {
   display: grid;
@@ -529,8 +545,6 @@ p {
   padding: 3rem;
 }
 
-
-
 /* Main Project Image Area */
 
 .project-details {
@@ -538,10 +552,6 @@ p {
   background-color: var(--royal-purple);
   padding: 1rem;
 }
-
-
-
-
 
 /* 
 
@@ -558,10 +568,9 @@ p {
   place-items: center;
   width: 100%;
   min-height: 100vh;
-  background:#549aa3;
+  background: #549aa3;
   /* https://grainy-gradients.vercel.app/ */
 }
-
 
 .holding-page-inner-container {
   display: grid;
@@ -575,15 +584,13 @@ p {
 
 .holding-page-title {
   font-size: 2rem;
-  color: #66023C;
+  color: #66023c;
 }
 
 .holding-page-copyright {
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: var(--off-white);
 }
-
-
 
 /*
 ███████ ██████  ██████   ██████  ██████  
@@ -592,8 +599,6 @@ p {
 ██      ██   ██ ██   ██ ██    ██ ██   ██ 
 ███████ ██   ██ ██   ██  ██████  ██   ██ 
 */
-
-
 
 .error-page {
   display: grid;
@@ -608,7 +613,6 @@ p {
   color: var(--accent-color);
 }
 
-
 /*
 ███████ ██   ██ ██████  ███████ ██████  ██ ███    ███ ███████ ███    ██ ████████ ███████ 
 ██       ██ ██  ██   ██ ██      ██   ██ ██ ████  ████ ██      ████   ██    ██    ██      
@@ -616,7 +620,6 @@ p {
 ██       ██ ██  ██      ██      ██   ██ ██ ██  ██  ██ ██      ██  ██ ██    ██         ██ 
 ███████ ██   ██ ██      ███████ ██   ██ ██ ██      ██ ███████ ██   ████    ██    ███████ 
 */
-
 
 .experiments-page {
   display: grid;
@@ -638,25 +641,43 @@ p {
   font-size: 2rem;
 }
 
-.experiments-text {color: var(--alice-blue);}
+.experiments-text {
+  color: var(--alice-blue);
+}
 
 .experiment-1-wrapper {
   display: flex;
-  flex-direction: row; 
-  margin-bottom: 1rem;  
+  flex-direction: row;
+  margin-bottom: 1rem;
   flex: 1;
 }
 
-.experiment-2-wrapper {  display: flex;
-  flex-direction: row; 
-  margin-bottom: 1rem;  
+.experiment-2-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
   flex: 1;
   align-items: center;
-  justify-content: center;}
+  justify-content: center;
+}
 
-.sub-navigation {display: flex; flex-direction: row; justify-content: space-evenly; padding: 1rem;  text-align: center;}
-a.sub-navigation-link {border: 1px solid var(--accent-color); color: var(--accent-color); padding: 1rem;}
-a.sub-navigation-link:hover {background: var(--accent-color); color: var(--floral-white); padding: 1rem;}
+.sub-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1rem;
+  text-align: center;
+}
+a.sub-navigation-link {
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  padding: 1rem;
+}
+a.sub-navigation-link:hover {
+  background: var(--accent-color);
+  color: var(--floral-white);
+  padding: 1rem;
+}
 
 /* Let's size the boxes */
 
@@ -667,18 +688,21 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   place-items: center;
 }
 
-.image {width: 40%;}
+.image {
+  width: 40%;
+}
 
 /* Let's hide box 2 */
 
 .experiment-image-2 {
   display: none;
 }
-.experiment-image-single { 
+.experiment-image-single {
   width: 20rem;
   padding: 2rem;
   display: grid;
-  place-items: center; }
+  place-items: center;
+}
 
 #heyday-logo-blue {
   animation: rotation 9s infinite linear;
@@ -688,7 +712,6 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   from {transform: rotate(0deg);}
   to { transform: rotate(359deg); }
 } */
-
 
 /*
 
@@ -700,10 +723,10 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 
 */
 
-
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+}
 
 /* Large devices (desktops, 992px and up) */
 
@@ -737,16 +760,44 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
     grid-gap: 1rem;
   }
 
+  .project-description-container-left {
+    border: 1px solid black;
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+  }
 
+  .project-description-container-right {
+    border: 1px solid yellow;
+    position: absolute;
+    right: 65rem;
+    bottom: 2.5rem;
+  }
 
+  .project-preview-left {
+    border: 1px solid red;
+    position: relative;
+    width: 60%;
+    min-height: 10rem;
+    margin-bottom: 5rem;
+  }
+
+  .project-preview-right {
+    border: 1px solid purple;
+    position: relative;
+    right: -45rem;
+    width: 60%;
+    min-height: 10rem;
+    margin-bottom: 5rem;
+  }
 
   /* Grayscale filter with full-colour on hover and tap */
   .work-page-grid-item a img {
     filter: grayscale(100);
   }
 
-  .work-page-grid-item>a:active img,
-  .work-page-grid-item>a:hover img {
+  .work-page-grid-item > a:active img,
+  .work-page-grid-item > a:hover img {
     filter: grayscale(0);
   }
 
@@ -813,7 +864,6 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   /* Project Page Flex Direction on Large Devices */
   .project-wrapper {
     flex-direction: row;
-
   }
 
   /* Sidebar on Large Devices */
@@ -846,18 +896,16 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   .arrow {
     padding-right: 1rem;
   }
-
-
 }
-
 
 /* Only add styles below to make very minor adjustments for extra or extra-extra large devices */
 
-
 /* X-Large devices (large desktops, 1200px and up)*/
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+}
