@@ -108,6 +108,8 @@ svg {
   /* This is optional. Also try cover or leave out entirely. */
 }
 
+.circular-image {border-radius: 50%;}
+
 /* .cls-1 {fill: red;}
 .cls-1:hover {fill: yellowgreen;}
 .cls-2 {fill:green;}
