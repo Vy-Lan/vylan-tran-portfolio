@@ -760,6 +760,15 @@ a.sub-navigation-link:hover {
     grid-gap: 1rem;
   }
 
+
+.project-wrapper {width: 100%;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+background: purple;
+
+
+}
   .project-description-container-left {
     border: 1px solid black;
     position: absolute;
@@ -767,10 +776,16 @@ a.sub-navigation-link:hover {
     bottom: 2.5rem;
   }
 
-  .project-description-container-right {
+
+.project-preview-right-wrapper {display: flex;
+flex-direction: row;
+justify-content: flex-end;
+border: 2px dashed orange;}
+
+.project-description-container-right {
     border: 1px solid yellow;
     position: absolute;
-    right: 65rem;
+    left: -5rem;
     bottom: 2.5rem;
   }
 
@@ -785,7 +800,7 @@ a.sub-navigation-link:hover {
   .project-preview-right {
     border: 1px solid purple;
     position: relative;
-    right: -45rem;
+    left: 5rem;
     width: 60%;
     min-height: 10rem;
     margin-bottom: 5rem;
