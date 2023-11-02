@@ -443,6 +443,10 @@ p {
 ██      ██████ ██   ██    ███
 */
 
+.play-intro {
+  min-height: 30vh;
+}
+
 .img {
   width: 100%;
 }
