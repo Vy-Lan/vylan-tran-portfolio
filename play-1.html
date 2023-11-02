@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vylan Tran's Portfolio | Work Page</title>
+    <meta
+      name="description"
+      content="I'm an Interactive Concentration graduate from the IDEA School of Design"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content="screenshot.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/d300c2ea15.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+    <main class="work-wrapper">
+      <section class="portfolio">
+        <ul class="grid">
+          <li class="work-page-grid-item">
+            <figure>
+              <img
+                src="assets/project-one/vylantran-ethera-light-poster-mockup-work.jpg"
+                alt="Ethera cinematic music festival AR experience"
+                class="circular-image"
+              />
+            </figure>
+            <a href="project-1.html">
+              <div class="overlay">
+                <h1 class="overlay-title">Ethera Music Festival</h1>
+                <h4 class="overlay-description">Branding &amp Interactive</h4>
+              </div>
+            </a>
+          </li>
+          <li class="work-page-grid-item">
+            <figure>
+              <img
+                src="assets/project-two/vylantran-riverbank-mockup-work.jpg"
+                alt="Riverbank banking app mock-up"
+                class="circular-image"
+              />
+            </figure>
+            <a href="project-2.html">
+              <div class="overlay">
+                <h1 class="overlay-title">Riverbank Banking App</h1>
+                <h4 class="overlay-description">Interactive</h4>
+              </div>
+            </a>
+          </li>
+          <li class="work-page-grid-item">
+            <figure>
+              <img
+                src="assets/project-three/vylantran-weather-app-illustration-work.jpg"
+                alt="Sunny day illustration for weather app"
+              />
+            </figure>
+            <a href="project-2.html">
+              <div class="overlay">
+                <h1 class="overlay-title">Artwork for Weather App</h1>
+                <h4 class="overlay-description">Illustration</h4>
+              </div>
+            </a>
+          </li>
+          <li class="work-page-grid-item">
+            <figure>
+              <img
+                src="assets/project-four/vylantran-imagino-landing-page-work.jpg"
+                alt="Imagino tourism landing page"
+              />
+            </figure>
+            <a href="project-2.html">
+              <div class="overlay">
+                <h1 class="overlay-title">Imagino Tourism Website</h1>
+                <h4 class="overlay-description">Interactive</h4>
+              </div>
+            </a>
+          </li>
+          <li class="work-page-grid-item">
+            <figure>
+              <img
+                src="assets/project-five/vylantran-notreallytacos-menu-work.jpg"
+                alt="Not Really Tacos Menu mock-up"
+              />
+            </figure>
+            <a href="project-2.html">
+              <div class="overlay">
+                <h1 class="overlay-title">Not Really Tacos</h1>
+                <h4 class="overlay-description">Branding</h4>
+              </div>
+            </a>
+          </li>
+          <li class="work-page-grid-item">
+            <figure>
+              <img
+                src="assets/project-six/vylantran-vbga-annual-report-work.jpg"
+                alt="Vancouver Botanical Garden Association annual report spreads mocked up"
+              />
+            </figure>
+            <a href="project-2.html">
+              <div class="overlay">
+                <h1 class="overlay-title">VBGA Annual Report</h1>
+                <h4 class="overlay-description">Branding</h4>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <ul class="global-footer">
+      <li class="footer-item-1">
+        <h2>Let's connect!</h2>
+        <p>email@email.com</p>
+      </li>
+      <li class="footer-item-3">
+        <h2>Contact &amp; Social</h2>
+        <ul class="socials-list">
+          <li class="social-item"><a href="#">Behance</a></li>
+          <li class="social-item"><a href="#">LinkedIn</a></li>
+          <li class="social-item"><a href="#">Dribbble</a></li>
+        </ul>
+      </li>
+      <li class="footer-item-4">
+        <p><a href="#top">Smooth scroll to the top</a></p>
+        <p class="fineprint">&copy; 2023. All rights reserved.</p>
+      </li>
+    </ul>
+
+    <div id="myID" class="bottomMenu hide"><a href="#">Back to top</a></div>
+
+    <!--<div id="ghostanimation" class="ghost"><img src="assets/temp/cactus.svg" /></div>
+  <script type="text/javascript">
+    function ShowHideDiv(btnGhost) {
+      var GhostStyle = document.getElementById("ghostanimation");
+      if (btnGhost.value == "Hide Ghost") {
+        GhostStyle.style.display = "none";
+        btnGhost.value = "Play Ghost";
+      } else {
+        GhostStyle.style.display = "block";
+        btnGhost.value = "Hide Ghost";
+      }
+    }
+  </script>-->
+    <script type="text/javascript">
+      myID = document.getElementById("myID");
+
+      var myScrollFunc = function () {
+        var y = window.scrollY;
+        if (y >= 800) {
+          myID.className = "bottomMenu show";
+        } else {
+          myID.className = "bottomMenu hide";
+        }
+      };
+
+      window.addEventListener("scroll", myScrollFunc);
+    </script>
+  </body>
+</html>
