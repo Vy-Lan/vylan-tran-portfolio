@@ -108,7 +108,9 @@ svg {
   /* This is optional. Also try cover or leave out entirely. */
 }
 
-.circular-image {border-radius: 50%;}
+.circular-image {
+  border-radius: 50%;
+}
 
 /* .cls-1 {fill: red;}
 .cls-1:hover {fill: yellowgreen;}
@@ -306,8 +308,33 @@ p {
   align-items: center;
 }
 
+.hero-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border: 1px solid #a2a2a2;
+  background-color: #f4f4f4;
+}
+
+.main-nav {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo a,
+.main-nav a {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  border: 1px solid #36454f;
+}
+
 .logo {
-  width: 3rem;
+  width: 5rem;
 }
 
 .hero-headline-wrapper {
@@ -406,6 +433,29 @@ p {
 .work-page-grid-item:hover .overlay {
   visibility: visible;
   opacity: 0.8;
+}
+
+/*
+██████  ██      █████  ███   ███
+██   ██ ██     ██   ██  ███ ███
+██████  ██     ███████    ███
+██      ██     ██   ██    ███
+██      ██████ ██   ██    ███
+*/
+
+.img {
+  width: 100%;
+}
+
+.masonry {
+  column-count: 3;
+  column-gap: 25px;
+}
+
+.masonry .mItem {
+  display: inline-block;
+  margin-bottom: 16px;
+  width: 100%;
 }
 
 /* 
@@ -762,15 +812,13 @@ a.sub-navigation-link:hover {
     grid-gap: 1rem;
   }
 
-
-.project-wrapper {width: 100%;
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-background: purple;
-
-
-}
+  .project-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: purple;
+  }
   .project-description-container-left {
     border: 1px solid black;
     position: absolute;
@@ -778,13 +826,14 @@ background: purple;
     bottom: 2.5rem;
   }
 
+  .project-preview-right-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border: 2px dashed orange;
+  }
 
-.project-preview-right-wrapper {display: flex;
-flex-direction: row;
-justify-content: flex-end;
-border: 2px dashed orange;}
-
-.project-description-container-right {
+  .project-description-container-right {
     border: 1px solid yellow;
     position: absolute;
     left: -5rem;
