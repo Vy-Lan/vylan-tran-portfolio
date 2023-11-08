@@ -65,8 +65,8 @@ html {
 
 :root {
   --primary-text-color: #222;
-  --accent-color: #7761a6;
-  --overlay-color: #55002fab;
+  --accent-color: #09938b;
+  --overlay-color: #09938b;
   --hyperlink-color: #55002fab;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
@@ -180,7 +180,7 @@ h1 {
   font-size: 3rem;
   font-family: var(--project-title-typeface);
   margin-bottom: 1rem;
-  color: var(--royal-purple);
+  color: var(--accent-color);
 }
 
 .overlay-title {
@@ -215,7 +215,12 @@ h3 {
 h4 {
   font-size: 2rem;
   font-family: "Noto Sans" sans-serif;
-  color: var(--royal-purple);
+  color: var(--accent-color);
+}
+
+.footer-main {
+  color: white;
+  font-size: 3rem;
 }
 
 /* Hyperlink Styles */
@@ -273,6 +278,7 @@ p {
 
 .fineprint {
   font-size: 0.875rem;
+  color: white;
 }
 
 .heart {
@@ -525,8 +531,8 @@ p {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  min-height: 100vh;
-  background: #f5f5f5;
+  min-height: 50vh;
+  background: var(--accent-color);
   padding: 1rem;
 }
 
