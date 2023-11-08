@@ -10,7 +10,7 @@ Add the Google Fonts you want, remove the ones you don't.
 
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,400;0,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 
 /*
@@ -71,8 +71,8 @@ html {
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
   --body-typeface: "Noto Sans", sans-serif;
-  --heading-typeface: "Ubuntu Mono", monospace;
-  --project-title-typeface: "Ubuntu Mono", monospace;
+  --heading-typeface: "Georama", sans-serif;
+  --project-title-typeface: "Georama", sans-serif;
   --off-white: #f8f8ff;
   --isabelline: #f4f0ec;
   --royal-purple: #70003d;
@@ -167,7 +167,9 @@ h1 {
 
 .hero-headline {
   font-size: 12rem;
+  font-weight: 700;
   text-transform: uppercase;
+  color: #09938b;
 }
 
 .hero-subheadline {
@@ -194,8 +196,14 @@ h1 {
 h2 {
   font-size: 2.25rem;
   font-family: var(--heading-typeface);
-  margin-bottom: 1rem;
-  color: var(--accent-color);
+  margin-bottom: 2rem;
+  color: black;
+}
+
+.project-preview {
+  font-size: 7rem;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 h3 {
@@ -205,6 +213,8 @@ h3 {
 }
 
 h4 {
+  font-size: 2rem;
+  font-family: "Noto Sans" sans-serif;
   color: var(--royal-purple);
 }
 
@@ -341,10 +351,10 @@ p {
   display: flex;
   flex-direction: column;
   flex: 1;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   padding: 2rem 4rem;
-  text-align: center;
+  text-align: left;
 }
 
 .hero-icon {
@@ -792,7 +802,7 @@ a.sub-navigation-link:hover {
   }
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
 
   h3 {
@@ -800,7 +810,7 @@ a.sub-navigation-link:hover {
   }
 
   .logo {
-    width: 5rem;
+    width: 10rem;
   }
 
   .hero {
@@ -821,13 +831,14 @@ a.sub-navigation-link:hover {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background: purple;
   }
   .project-description-container-left {
     border: 1px solid black;
     position: absolute;
     right: -5rem;
     bottom: 2.5rem;
+    max-width: 15rem;
+    word-wrap: normal;
   }
 
   .project-preview-right-wrapper {
@@ -842,6 +853,7 @@ a.sub-navigation-link:hover {
     position: absolute;
     left: -5rem;
     bottom: 2.5rem;
+    max-width: 15rem;
   }
 
   .project-preview-left {
@@ -850,15 +862,17 @@ a.sub-navigation-link:hover {
     width: 60%;
     min-height: 10rem;
     margin-bottom: 5rem;
+    margin-left: 5rem;
   }
 
   .project-preview-right {
-    border: 1px solid purple;
+    border: 1px solid white;
     position: relative;
     left: 5rem;
     width: 60%;
     min-height: 10rem;
     margin-bottom: 5rem;
+    margin-right: 10rem;
   }
 
   /* Grayscale filter with full-colour on hover and tap */
