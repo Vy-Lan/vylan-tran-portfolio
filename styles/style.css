@@ -157,7 +157,8 @@ h1 {
   font-size: 2rem;
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
-  color: var(--royal-purple);
+  color: var(--accent-color);
+  font-weight: 600;
 }
 
 .custom-navigation {
@@ -470,6 +471,8 @@ p {
 .masonry {
   column-count: 3;
   column-gap: 25px;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .masonry .mItem {
