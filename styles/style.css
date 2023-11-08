@@ -534,6 +534,7 @@ p {
   min-height: 50vh;
   background: var(--accent-color);
   padding: 1rem;
+  margin-top: 3rem;
 }
 
 .footer-item-1 {
