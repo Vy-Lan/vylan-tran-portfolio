@@ -506,7 +506,7 @@ p {
 
 .about {
   display: grid;
-  grid-template-columns: 2fr;
+  grid-template-columns: 1fr;
   grid-gap: 3rem;
   background: #f5f5f5;
   padding: 1rem;
