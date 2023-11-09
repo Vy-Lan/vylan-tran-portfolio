@@ -67,9 +67,9 @@ html {
   --primary-text-color: #222;
   --accent-color: #09938b;
   --overlay-color: #09938b;
-  --hyperlink-color: #55002fab;
+  --hyperlink-color: #000000;
   --hyperlink-alternate-color: orangered;
-  --hover-color: #111;
+  --hover-color: #115451;
   --body-typeface: "Noto Sans", sans-serif;
   --heading-typeface: "Georama", sans-serif;
   --project-title-typeface: "Georama", sans-serif;
@@ -174,7 +174,7 @@ h1 {
 }
 
 .hero-subheadline {
-  color: white;
+  color: black;
 }
 
 .project-title {
@@ -212,9 +212,12 @@ h2 {
 
 .project-preview {
   font-size: 7rem;
+  -webkit-text-stroke: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
   text-transform: uppercase;
   font-weight: 600;
-  color: white;
+  color: #000000;
 }
 
 h3 {
@@ -339,16 +342,16 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  border: 1px solid #a2a2a2;
-  background-color: #f4f4f4;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .main-nav {
   margin-top: 5px;
+  margin-right: 5rem;
   display: flex;
   flex-direction: row;
+  gap: 1rem;
 }
 
 .logo a,
@@ -357,11 +360,11 @@ p {
   text-transform: uppercase;
   text-align: center;
   display: block;
-  border: 1px solid #36454f;
 }
 
 .logo {
   width: 5rem;
+  margin-left: 5rem;
 }
 
 .hero-headline-wrapper {
@@ -584,7 +587,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: black;
+  background: rgb(255, 255, 255);
 }
 
 /* Sidebar */
@@ -654,7 +657,7 @@ p {
   place-items: center;
   width: 100%;
   min-height: 100vh;
-  background: #549aa3;
+  background: #09938b;
   /* https://grainy-gradients.vercel.app/ */
 }
 
@@ -856,7 +859,7 @@ a.sub-navigation-link:hover {
     flex-wrap: wrap;
   }
   .project-description-container-left {
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     position: absolute;
     right: -5rem;
     bottom: 1rem;
