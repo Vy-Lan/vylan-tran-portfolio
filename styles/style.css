@@ -79,7 +79,7 @@ html {
   --alice-blue: #f0f8ff;
   --alabaster: #f2f0e6;
   --floral-white: #fffaf0;
-  --background-color: #000000;
+  --background-color: white;
   --alt-background-color: rgb(255, 255, 255);
   --text-selection-background-color: #555555;
 }
