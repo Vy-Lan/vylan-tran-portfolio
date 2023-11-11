@@ -213,12 +213,9 @@ h2 {
 
 .project-preview {
   font-size: 7rem;
-  -webkit-text-stroke: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
   text-transform: uppercase;
   font-weight: 600;
-  color: #000000;
+  color: white;
 }
 
 h3 {
@@ -832,6 +829,10 @@ a.sub-navigation-link:hover {
     font-size: 2.25rem;
   }
 
+  .project-preview {
+    font-size: 7rem;
+  }
+
   h3 {
     font-size: 1.625rem;
   }
@@ -858,14 +859,17 @@ a.sub-navigation-link:hover {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    gap: 10rem;
+    background: black;
   }
+
   .project-description-container-left {
     border: 1px solid rgb(0, 0, 0);
     position: absolute;
-    right: -5rem;
+    right: -10rem;
     bottom: 1rem;
-    max-width: 15rem;
     word-wrap: normal;
+    bottom: -7rem;
   }
 
   .project-preview-right-wrapper {
@@ -873,14 +877,14 @@ a.sub-navigation-link:hover {
     flex-direction: row;
     justify-content: flex-end;
     border: 2px dashed orange;
+    gap: 10rem;
   }
 
   .project-description-container-right {
     border: 1px solid yellow;
     position: absolute;
     left: -5rem;
-    bottom: 1rem;
-    max-width: 15rem;
+    bottom: -7rem;
   }
 
   .project-preview-left {
