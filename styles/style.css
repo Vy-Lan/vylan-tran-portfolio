@@ -806,6 +806,10 @@ a.sub-navigation-link:hover {
   .project-preview {
     font-size: 5rem;
   }
+
+  .masonry {
+    column-count: 1;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -1001,6 +1005,11 @@ a.sub-navigation-link:hover {
   .arrow {
     padding-right: 1rem;
   }
+
+  /* Play Page Masonry Columns */
+  .masonry {
+    column-count: 2;
+  }
 }
 
 /* Only add styles below to make very minor adjustments for extra or extra-extra large devices */
@@ -1008,6 +1017,9 @@ a.sub-navigation-link:hover {
 /* X-Large devices (large desktops, 1200px and up)*/
 
 @media (min-width: 1200px) {
+  .masonry {
+    column-count: 3;
+  }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
