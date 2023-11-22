@@ -645,7 +645,7 @@ p {
   place-items: center;
   width: 100%;
   min-height: 100vh;
-  background: #09938b;
+  background: var(--accent-color);
   /* https://grainy-gradients.vercel.app/ */
 }
 
@@ -661,7 +661,7 @@ p {
 
 .holding-page-title {
   font-size: 2rem;
-  color: #66023c;
+  color: #ffffff;
 }
 
 .holding-page-copyright {
