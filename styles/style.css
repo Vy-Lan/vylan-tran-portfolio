@@ -1065,10 +1065,11 @@ a.sub-navigation-link:hover {
     flex-wrap: wrap;
     gap: 10rem;
     background: black;
+    margin-bottom: 7rem;
   }
 
   .project-description-container-left {
-    border: 1px solid rgb(0, 0, 0);
+    /* border: 1px solid rgb(0, 0, 0); */
     position: absolute;
     right: -10rem;
     bottom: 1rem;
@@ -1080,19 +1081,20 @@ a.sub-navigation-link:hover {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    border: 2px dashed orange;
+    /* border: 2px dashed orange; */
     gap: 10rem;
+    margin-bottom: 7rem;
   }
 
   .project-description-container-right {
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     position: absolute;
     left: -5rem;
     bottom: -7rem;
   }
 
   .project-preview-left {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: relative;
     width: 60%;
     min-height: 10rem;
@@ -1101,7 +1103,7 @@ a.sub-navigation-link:hover {
   }
 
   .project-preview-right {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     position: relative;
     left: 5rem;
     width: 60%;
