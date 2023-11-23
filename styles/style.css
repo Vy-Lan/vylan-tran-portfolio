@@ -1003,6 +1003,15 @@ a.sub-navigation-link:hover {
 /* Small devices (phones, 320px and up) */
 
 @media (min-width: 320px) {
+  /* Footer */
+  .footer-main {
+    font-size: 2rem;
+  }
+
+  .footer-contact-links {
+    font-size: 2rem;
+  }
+
   /* Work Page */
 
   .hero-headline-wrapper {
@@ -1034,6 +1043,33 @@ a.sub-navigation-link:hover {
   }
 
   /* Play Page */
+
+  .play-intro {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .section-title {
+    margin: 1rem;
+  }
+
+  .section-description {
+    margin: 1rem;
+  }
+
+  .filter-container {
+    margin: 1rem;
+    padding-left: 0;
+  }
+
+  .filter-btn {
+    margin-bottom: 1rem;
+  }
+
+  .filter-items {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 
   .masonry {
     column-count: 1;
