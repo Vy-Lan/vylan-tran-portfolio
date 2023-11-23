@@ -40,40 +40,57 @@
       <h3 class="section-description">
         Passion projects, playful experiments, and peculiar designs
       </h3>
+
+      <div class="filter-container">
+        <div id="play-filter">
+          <button class="filter-btn active" onclick="filterSelection('all')">
+            All
+          </button>
+          <button class="filter-btn" onclick="filterSelection('illustration')">
+            Illustration
+          </button>
+          <button class="filter-btn" onclick="filterSelection('branding')">
+            Branding
+          </button>
+        </div>
+      </div>
     </section>
-    <div class="masonry">
-      <div class="mItem">
-        <img src="assets/masonry-items/A-Sunny-Corner-Of-My-Room.jpg" />
-      </div>
 
-      <div class="mItem">
-        <img src="assets/masonry-items/Stone-Statue.jpg" />
-      </div>
+    <section class="filter-items">
+      <div class="masonry filter-items">
+        <div class="mItem filterDiv illustration">
+          <img src="assets/masonry-items/A-Sunny-Corner-Of-My-Room.jpg" />
+        </div>
 
-      <div class="mItem">
-        <img src="assets/masonry-items/Orange-Hearts.jpg" />
-      </div>
+        <div class="mItem filterDiv illustration">
+          <img src="assets/masonry-items/Stone-Statue.jpg" />
+        </div>
 
-      <div class="mItem">
-        <img src="assets/masonry-items/Everything-I-Never-Told-You.jpg" />
-      </div>
+        <div class="mItem filterDiv illustration">
+          <img src="assets/masonry-items/Orange-Hearts.jpg" />
+        </div>
 
-      <div class="mItem">
-        <img src="assets/masonry-items/pine-and-berry-chocolate.jpg" />
-      </div>
+        <div class="mItem filterDiv illustration">
+          <img src="assets/masonry-items/Everything-I-Never-Told-You.jpg" />
+        </div>
 
-      <div class="mItem">
-        <img src="assets/masonry-items/sister-portrait.jpg" />
-      </div>
+        <div class="mItem filterDiv branding">
+          <img src="assets/masonry-items/pine-and-berry-chocolate.jpg" />
+        </div>
 
-      <div class="mItem">
-        <img src="assets/masonry-items/not-really-tacos-menu-design.jpg" />
-      </div>
+        <div class="mItem filterDiv illustration">
+          <img src="assets/masonry-items/sister-portrait.jpg" />
+        </div>
 
-      <div class="mItem">
-        <img src="assets/masonry-items/editorial-illustration.jpg" />
+        <div class="mItem filterDiv branding">
+          <img src="assets/masonry-items/not-really-tacos-menu-design.jpg" />
+        </div>
+
+        <div class="mItem filterDiv illustration">
+          <img src="assets/masonry-items/editorial-illustration.jpg" />
+        </div>
       </div>
-    </div>
+    </section>
 
     <ul class="global-footer">
       <li class="footer-item-1">

@@ -579,8 +579,63 @@ a {
 */
 
 .play-intro {
-  min-height: 30vh;
+  min-height: 25vh;
 }
+
+/* Filter Buttons */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.filter-container {
+  padding-top: 1rem;
+  padding-left: 5rem;
+}
+
+.filterDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+.show {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-btn {
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 1rem;
+  border: 1px solid white;
+  background-color: black;
+  margin-right: 0.5rem;
+}
+
+.filter-btn:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.filter-btn.active {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+/* Masonry */
 
 .img {
   width: 100%;
@@ -591,6 +646,7 @@ a {
   column-gap: 25px;
   margin-left: 5rem;
   margin-right: 5rem;
+  margin-top: 3rem;
 }
 
 .masonry .mItem {
@@ -610,16 +666,16 @@ a {
 */
 
 .about {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
   background: #575757;
-  padding: 1rem;
+  padding-left: 5rem;
 }
 
 .about-item-1 {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
+  padding-right: 4rem;
 }
 
 .about-item-2 {
@@ -757,7 +813,7 @@ a {
 
 .project-details {
   width: 100%;
-  background-color: var(--royal-purple);
+  background-color: black;
   padding: 1rem;
 }
 
