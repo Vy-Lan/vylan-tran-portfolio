@@ -261,15 +261,15 @@ a:active {
 
 .navigation-arrow:link {
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: var(--royal-purple);
+  -webkit-text-stroke-color: white;
   color: transparent;
 }
 
 .navigation-arrow:active,
 .navigation-arrow:hover {
-  color: var(--royal-purple);
+  color: var(--accent-color);
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: var(--royal-purple);
+  -webkit-text-stroke-color: black;
 }
 
 .colored-link {
@@ -762,17 +762,18 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: rgb(255, 255, 255);
+  background: black;
 }
 
 /* Sidebar */
 .project-aside {
   width: 100%;
   color: white;
-  background: white;
-  padding: 1rem;
+  background: black;
   display: flex;
   flex-direction: column;
+  padding-left: 5rem;
+  padding-top: 5rem;
 }
 
 .project-navigation {
@@ -803,6 +804,14 @@ a {
   align-items: center;
   justify-content: center;
   padding-bottom: 1rem;
+}
+
+.project-title {
+  color: white;
+}
+
+.project-description {
+  color: white;
 }
 
 .project-text {
