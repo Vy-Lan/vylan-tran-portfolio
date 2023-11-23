@@ -1345,10 +1345,12 @@ a.sub-navigation-link:hover {
 
   .hero-headline {
     font-size: 11rem;
+    margin-left: 2rem;
   }
 
   .hero-subheadline {
     font-size: 2rem;
+    margin-left: 2rem;
   }
 
   .project-wrapper-work {
