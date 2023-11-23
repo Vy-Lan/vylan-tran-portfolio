@@ -1113,6 +1113,8 @@ a.sub-navigation-link:hover {
   .resume-detail {
     font-size: 1rem;
   }
+
+  /* Project Pages */
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -1442,6 +1444,8 @@ a.sub-navigation-link:hover {
   .resume-detail {
     font-size: 1.5rem;
   }
+
+  /* Project Pages */
 }
 
 /* Only add styles below to make very minor adjustments for extra or extra-extra large devices */
