@@ -1003,9 +1003,37 @@ a.sub-navigation-link:hover {
 /* Small devices (phones, 320px and up) */
 
 @media (min-width: 320px) {
-  .project-preview {
-    font-size: 5rem;
+  /* Work Page */
+
+  .hero-headline-wrapper {
+    padding: 1rem 2rem;
   }
+
+  .hero-headline {
+    font-size: 4rem;
+  }
+
+  .hero-subheadline {
+    font-size: 2rem;
+  }
+
+  .project-wrapper-work {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .project-preview {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .project-preview-subhead {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  /* Play Page */
 
   .masonry {
     column-count: 1;
