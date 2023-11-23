@@ -1074,6 +1074,45 @@ a.sub-navigation-link:hover {
   .masonry {
     column-count: 1;
   }
+
+  /* About Page */
+
+  .section-title-about {
+    margin-left: 1rem;
+  }
+
+  .about-page {
+    margin-left: 1rem;
+  }
+
+  .about {
+    padding-left: 1rem;
+  }
+
+  .about-item-1 {
+    padding: 0;
+    margin-right: 1rem;
+  }
+
+  .about-bio {
+    font-size: 1rem;
+  }
+
+  .resume {
+    padding: 1rem;
+  }
+
+  .resume-list {
+    padding: 0;
+  }
+
+  .resume-header {
+    font-size: 1.15rem;
+  }
+
+  .resume-detail {
+    font-size: 1rem;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -1140,7 +1179,7 @@ a.sub-navigation-link:hover {
     right: -10rem;
     bottom: 1rem;
     word-wrap: normal;
-    bottom: -7rem;
+    bottom: -11rem;
   }
 
   .project-preview-right-wrapper {
@@ -1156,7 +1195,7 @@ a.sub-navigation-link:hover {
     /* border: 1px solid yellow; */
     position: absolute;
     left: -5rem;
-    bottom: -7rem;
+    bottom: -11rem;
   }
 
   .project-preview-left {
@@ -1287,6 +1326,119 @@ a.sub-navigation-link:hover {
   /* Play Page Masonry Columns */
   .masonry {
     column-count: 2;
+  }
+
+  /* Footer */
+  .footer-main {
+    font-size: 3rem;
+  }
+
+  .footer-contact-links {
+    font-size: 3rem;
+  }
+
+  /* Work Page */
+
+  .hero-headline-wrapper {
+    padding: 2rem 4rem;
+  }
+
+  .hero-headline {
+    font-size: 11rem;
+  }
+
+  .hero-subheadline {
+    font-size: 2rem;
+  }
+
+  .project-wrapper-work {
+    padding-left: 0;
+    padding-right: 1rem;
+  }
+
+  .project-preview {
+    font-size: 7rem;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .project-preview-subhead {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  /* Play Page */
+
+  .play-intro {
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 1rem;
+  }
+
+  .section-title {
+    margin: 1rem;
+  }
+
+  .section-description {
+    margin: 1rem;
+  }
+
+  .filter-container {
+    margin: 1rem;
+    padding-left: 0;
+  }
+
+  .filter-btn {
+    margin-bottom: 1rem;
+  }
+
+  .filter-items {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .masonry {
+    column-count: 1;
+  }
+
+  /* About Page */
+
+  .about-page {
+    margin-left: 1rem;
+  }
+
+  .section-title-about {
+    margin-top: 3rem;
+    margin-left: 5rem;
+  }
+
+  .about {
+    padding-left: 5rem;
+  }
+
+  .about-item-1 {
+    padding: 0;
+    margin-right: 1rem;
+  }
+
+  .about-bio {
+    font-size: 1.25rem;
+  }
+
+  .resume {
+    padding: 1rem;
+  }
+
+  .resume-list {
+    padding-left: 5rem;
+  }
+
+  .resume-header {
+    font-size: 1.5rem;
+  }
+
+  .resume-detail {
+    font-size: 1.5rem;
   }
 }
 
