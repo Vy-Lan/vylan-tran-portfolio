@@ -1115,6 +1115,26 @@ a.sub-navigation-link:hover {
   }
 
   /* Project Pages */
+
+  .project-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: black;
+  }
+
+  /* Sidebar */
+  .project-aside {
+    padding-left: 2rem;
+    padding-top: 3rem;
+    padding-right: 2rem;
+  }
+
+  .project-details {
+    width: 100%;
+    background-color: black;
+    padding: 1rem;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -1444,8 +1464,6 @@ a.sub-navigation-link:hover {
   .resume-detail {
     font-size: 1.5rem;
   }
-
-  /* Project Pages */
 }
 
 /* Only add styles below to make very minor adjustments for extra or extra-extra large devices */
