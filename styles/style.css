@@ -1329,9 +1329,9 @@ a.sub-navigation-link:hover {
     width: 65%;
   }
 
-  .project-image {
+  /*.project-image {
     min-height: 100vh;
-  }
+  }*/
 
   .project-image-container {
     flex-direction: row;
