@@ -65,7 +65,7 @@ html {
 
 :root {
   --primary-text-color: #222;
-  --accent-color: #09938b;
+  --accent-color: #00F3D5;
   --overlay-color: #09938b;
   --hyperlink-color: #ffffff;
   --hyperlink-alternate-color: orangered;
@@ -170,7 +170,7 @@ h1 {
   font-size: 12rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #09938b;
+  color: #00F3D5;
 }
 
 .hero-subheadline {
