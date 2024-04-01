@@ -725,7 +725,7 @@ a {
   grid-template-columns: 1fr;
   grid-gap: 3rem;
   min-height: 50vh;
-  background: var(--accent-color);
+  background: #09938b;
   padding: 1rem;
   margin-top: 3rem;
 }
