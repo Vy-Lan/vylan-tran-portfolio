@@ -1,3 +1,10 @@
+**Notes**
+
+All assets, images, and copy from this code (and previous versions of this code) are by Vylan Tran.
+
+See below for information about the starter template that was previously used.
+
+
 # portfolio-2022
 ## A simple and modern portfolio template for creatives
  
