@@ -741,6 +741,32 @@ a.jump-link {
   gap: 2rem;
 }
 
+.life-update-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.life-update-contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.fa-book {
+  color: var(--accent-color);
+}
+
+.fa-map {
+  color: var(--accent-color);
+}
+
+.fa-gamepad {
+  color: var(--accent-color);
+}
+
 
 /* Global Footer
 
@@ -1289,6 +1315,13 @@ a.sub-navigation-link:hover {
     line-height: 1.25rem;
   }
 
+  .life-update-card {
+    padding: 0.75rem 0.25rem 0rem;
+    border: 1px solid white;
+    width: 70vw;
+    border-radius: 1rem;
+  }
+
   /* Case Study Page */
 
   .cs-title-text {
@@ -1586,6 +1619,13 @@ a.sub-navigation-link:hover {
     line-height: 2rem;
   }
 
+  .life-update-card {
+    padding: 1rem 0.5rem 0rem;
+    border: 1px solid white;
+    width: 50vw;
+    border-radius: 1rem;
+  }
+
   /* Case Study Page*/
 
   .cs-title-text {
@@ -1795,6 +1835,13 @@ a.sub-navigation-link:hover {
     border-radius: 20%;
     width: 90px;
     height: 90px;
+  }
+
+  .life-update-card {
+    padding: 1rem 0.5rem 0rem;
+    border: 1px solid white;
+    width: 30vw;
+    border-radius: 1rem;
   }
 
   /* Case Study Page */
