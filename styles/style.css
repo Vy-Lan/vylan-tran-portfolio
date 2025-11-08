@@ -1114,6 +1114,12 @@ a.sub-navigation-link:hover {
 
 @media (min-width: 320px) {
   
+  /* Hiding cursor */
+
+  body {
+    cursor: default !important;
+  }
+
   /* Typography */
 
   h1 {
@@ -1519,12 +1525,6 @@ a.sub-navigation-link:hover {
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-
-  /* Hiding cursor */
-
-  body {
-    cursor: default !important;
-  }
 
   /* Typography */
 
