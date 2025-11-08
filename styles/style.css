@@ -1520,6 +1520,12 @@ a.sub-navigation-link:hover {
 
 @media (min-width: 768px) {
 
+  /* Hiding cursor */
+
+  body {
+    cursor: default !important;
+  }
+
   /* Typography */
 
   h1 {
