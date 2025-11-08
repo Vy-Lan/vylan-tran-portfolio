@@ -1113,12 +1113,6 @@ a.sub-navigation-link:hover {
 /* Small devices (phones, 320px and up) */
 
 @media (min-width: 320px) {
-  
-  /* Hiding cursor */
-
-  body {
-    cursor: default !important;
-  }
 
   /* Typography */
 
@@ -1519,6 +1513,15 @@ a.sub-navigation-link:hover {
     width: 100%;
     background-color: #0F0F0F;
     padding: 1rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and below) */
+
+
+@media (max-width: 768px) {
+  body {
+    cursor: default !important;
   }
 }
 
