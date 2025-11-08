@@ -718,7 +718,7 @@ a.jump-link {
 
 .masonry .mItem {
   display: inline-block;
-  margin-bottom: 3rem;
+  margin-bottom: 3.5rem;
   width: 100%;
 }
 
@@ -1898,7 +1898,7 @@ even when scrolling*/
   /* Footer */
 
   .global-footer {
-    padding: 4rem;
+    padding: 2rem 7rem 2rem 7rem;
   }
 
   .footer-message {
