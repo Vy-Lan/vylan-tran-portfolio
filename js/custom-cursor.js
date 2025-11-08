@@ -11,8 +11,7 @@ function moveCursor(e) {
   cursor.style.top = `${y}px`;
 }
 
-//To get all the selected elements
-
+//For project preview images on Work page
 
 var divs = document.querySelectorAll('.work-project-img');
 
@@ -24,3 +23,15 @@ divs.forEach(div => {
     cursor.classList.remove('hover-cursor');
   });
 })
+
+
+//For footer
+var footer = document.querySelector('footer');
+
+footer.addEventListener('mouseenter', function() {
+  cursor.classList.add('footer-cursor');
+});
+
+footer.addEventListener('mouseleave', function() {
+  cursor.classList.remove('footer-cursor');
+});
