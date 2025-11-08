@@ -1516,14 +1516,6 @@ a.sub-navigation-link:hover {
   }
 }
 
-/* Medium devices (tablets, 768px and below) */
-
-
-@media (max-width: 768px) {
-  body {
-    cursor: default !important;
-  }
-}
 
 /* Medium devices (tablets, 768px and up) */
 

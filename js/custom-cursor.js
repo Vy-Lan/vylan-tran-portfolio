@@ -26,6 +26,7 @@ divs.forEach(div => {
 
 
 //For footer
+
 var footer = document.querySelector('footer');
 
 footer.addEventListener('mouseenter', function() {
@@ -35,3 +36,10 @@ footer.addEventListener('mouseenter', function() {
 footer.addEventListener('mouseleave', function() {
   cursor.classList.remove('footer-cursor');
 });
+
+
+//Disabling cursor for mobile devices
+
+if ('ontouchstart' in window || navigator.maxTouchPoints) {
+  document.body.style.cursor = 'default';
+}
