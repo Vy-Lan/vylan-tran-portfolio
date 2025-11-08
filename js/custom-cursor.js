@@ -41,5 +41,5 @@ footer.addEventListener('mouseleave', function() {
 //Disabling cursor for mobile devices
 
 if ('ontouchstart' in window || navigator.maxTouchPoints) {
-  document.body.style.cursor = 'default';
+  document.body.style.cursor = 'none';
 }
