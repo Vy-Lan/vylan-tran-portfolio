@@ -65,6 +65,7 @@ html {
 
 :root {
   --primary-text-color: white;
+  --secondary-text-color: #BFBFBF;
   --accent-color: #00F3D5;
   --overlay-color: #09938b;
   --hyperlink-color: #ffffff;
@@ -152,10 +153,10 @@ svg {
 */
 
 h1 {
-  font-size: 7.75rem;
+  font-size: 4.5rem;
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--accent-color);
 }
 
@@ -213,8 +214,8 @@ h3 {
 }
 
 h4 {
-  font-size: 3rem;
-  font-family: "Noto Sans" sans-serif;
+  font-size: 2rem;
+  font-family: "Noto Sans", sans-serif;
   color: var(--accent-color);
 }
 
@@ -274,7 +275,7 @@ p {
   font-size: 1.25rem;
   line-height: 1.4;
   margin-bottom: 1rem;
-  color: white;
+  color: var(--secondary-text-color);
 }
 
 .heart {
@@ -558,7 +559,18 @@ a.jump-link {
   text-align: left;
 }
 
+.hero-headline {
+  font-size: 4.5rem;
+}
+
+.hero-subheadline {
+  font-family: "Noto Sans", sans-serif;
+}
+
 .hero-body {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
   margin-top: 1rem;
 }
 
@@ -631,9 +643,14 @@ a.jump-link {
 ██      ██████ ██   ██    ███
 */
 
-.play-intro {
+.gallery-intro {
   display: flex;
   flex-direction: column;
+  margin-top: 4rem;
+}
+
+.gallery-description {
+  margin-top: 1rem;
 }
 
 /* Filter Buttons NOT IN USE */
@@ -725,6 +742,36 @@ a.jump-link {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+}
+
+.about-title {
+  font-size: 2rem;
+}
+
+.about-statement {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 2.5rem;
+}
+
+.resume-header {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.update-card-topic {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1rem;
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.update-card-info {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-text-color)
 }
 
 .about-image img {
@@ -1090,19 +1137,19 @@ a.jump-link {
   }
   
   .hero-headline {
-    font-size: 1.5rem;
+    font-size: 3.5rem;
     color: var(--accent-color);
     line-height: 2rem;
-    font-weight: 500;
   }
   
   .hero-subheadline {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: 2.75rem;
     width: 100%;
   }
   
   .hero-body {
-    margin-top: 0.75rem;
+    margin-top: 1rem;
     width: 100%;
   }
   
@@ -1177,6 +1224,7 @@ a.jump-link {
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 3rem;
+    padding-top: 3rem;
   }
   
   .about-desc {
@@ -1190,14 +1238,15 @@ a.jump-link {
   .toolkit-icon img {
     border: 1px solid white;
     border-radius: 20%;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
   }
 
   .about-section-title {
     font-size: 2rem;
     font-weight: 500;
     line-height: 2.5rem;
+    margin-bottom: 1rem;
   }
   
   .resume {
@@ -1215,7 +1264,7 @@ a.jump-link {
   
   .resume-header {
     font-size: 1rem;
-    font-weight: bold; 
+    font-weight: 600; 
     line-height: 1.25rem;
   }
 
@@ -1524,6 +1573,7 @@ even when scrolling*/
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 5rem;
+    padding-top: 4rem;
   }
   
   .about-desc {
@@ -1543,9 +1593,9 @@ even when scrolling*/
   }
 
   .about-section-title {
-    font-size: 3rem;
     font-weight: 500;
     line-height: 5rem;
+    margin-bottom: 0.5rem;
   }
   
   .resume {
@@ -1564,7 +1614,7 @@ even when scrolling*/
   
   .resume-header {
     font-size: 1.5rem;
-    font-weight: bold; 
+    font-weight: 600; 
     line-height: 2rem;
   }
 
@@ -1681,14 +1731,14 @@ even when scrolling*/
   /* Hero Work Area */
 
   .hero-headline {
-    font-size: 3rem;
+    font-size: 4.5rem;
     color: var(--accent-color);
     line-height: 5rem;
-    font-weight: 500;
   }
   
   .hero-subheadline {
-    font-size: 4.5rem;
+    font-size: 2rem;
+    line-height: 2.75rem;
     width: 70%;
   }
 
@@ -1787,7 +1837,7 @@ even when scrolling*/
   }
 
   .life-update-card {
-    padding: 1rem 0.5rem 0rem;
+    padding: 1.75rem 1rem 1rem 0.5rem;
     border: 1px solid white;
     width: 30vw;
     border-radius: 1rem;
