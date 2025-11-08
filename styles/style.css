@@ -957,105 +957,6 @@ a.jump-link {
   color: var(--accent-color);
 }
 
-/*
-███████ ██   ██ ██████  ███████ ██████  ██ ███    ███ ███████ ███    ██ ████████ ███████ 
-██       ██ ██  ██   ██ ██      ██   ██ ██ ████  ████ ██      ████   ██    ██    ██      
-█████     ███   ██████  █████   ██████  ██ ██ ████ ██ █████   ██ ██  ██    ██    ███████ 
-██       ██ ██  ██      ██      ██   ██ ██ ██  ██  ██ ██      ██  ██ ██    ██         ██ 
-███████ ██   ██ ██      ███████ ██   ██ ██ ██      ██ ███████ ██   ████    ██    ███████ 
-*/
-
-.experiments-page {
-  display: grid;
-  place-items: center;
-  background: black;
-}
-
-.experiments-page-inner-container {
-  text-align: center;
-  min-height: 100vh;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.experiments-page-title {
-  color: var(--accent-color);
-  font-size: 2rem;
-}
-
-.experiments-text {
-  color: var(--alice-blue);
-}
-
-.experiment-1-wrapper {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 1rem;
-  flex: 1;
-}
-
-.experiment-2-wrapper {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 1rem;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-}
-
-.sub-navigation {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 1rem;
-  text-align: center;
-}
-a.sub-navigation-link {
-  border: 1px solid var(--accent-color);
-  color: var(--accent-color);
-  padding: 1rem;
-}
-a.sub-navigation-link:hover {
-  background: var(--accent-color);
-  color: var(--floral-white);
-  padding: 1rem;
-}
-
-/* Let's size the boxes */
-
-.experiment-box {
-  width: 50%;
-  padding: 2rem;
-  display: grid;
-  place-items: center;
-}
-
-.image {
-  width: 40%;
-}
-
-/* Let's hide box 2 */
-
-.experiment-image-2 {
-  display: none;
-}
-.experiment-image-single {
-  width: 20rem;
-  padding: 2rem;
-  display: grid;
-  place-items: center;
-}
-
-#heyday-logo-blue {
-  animation: rotation 9s infinite linear;
-}
-
-/* @-webkit-keyframes rotation {
-  from {transform: rotate(0deg);}
-  to { transform: rotate(359deg); }
-} */
 
 /*
 
@@ -1089,7 +990,7 @@ a.sub-navigation-link:hover {
     flex-direction: column;
     gap: 50px;
     /*border: 2px solid red;*/
-    background: #00F3D5;
+    background: var(--accent-color);
     width: 100vw;
     min-height: 40vh;
     justify-content: space-between;
@@ -1131,7 +1032,7 @@ a.sub-navigation-link:hover {
   }
 
   .footer-contact-links {
-    color: #0F0F0F;
+    color: var(--background-color);
   }
 
   .socials-list {
@@ -1190,7 +1091,7 @@ a.sub-navigation-link:hover {
   
   .hero-headline {
     font-size: 1.5rem;
-    color: #00F3D5;
+    color: var(--accent-color);
     line-height: 2rem;
     font-weight: 500;
   }
@@ -1206,7 +1107,7 @@ a.sub-navigation-link:hover {
   }
   
   .project-tags {
-    color: #00F3D5;
+    color: var(--accent-color);
     text-transform: uppercase;
   }
   
@@ -1400,7 +1301,7 @@ a.sub-navigation-link:hover {
   button {
     font-size: 0.75rem;
     font-family: "Noto Sans", sans-serif;
-    background-color: #00F3D5;
+    background-color: var(--accent-color);
     border: none;
     color: #0F0F0F;
     padding: 0.5rem 1rem;
@@ -1456,7 +1357,7 @@ a.sub-navigation-link:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: #0F0F0F;
+    background: var(--background-color);
   }
 
   /* Sidebar */
@@ -1535,7 +1436,7 @@ even when scrolling*/
     flex-direction: column;
     gap: 50px;
     /*border: 2px solid red;*/
-    background: #00F3D5;
+    background: var(--accent-color);
     width: 100%;
     min-height: 40vh;
     justify-content: space-between;
@@ -1740,9 +1641,9 @@ even when scrolling*/
   button {
     font-size: 1rem;
     font-family: "Noto Sans", sans-serif;
-    background-color: #00F3D5;
+    background-color: var(--accent-color);
     border: none;
-    color: #0F0F0F;
+    color: var(--background-color);
     padding: 1rem 1.5rem;
     text-align: center;
     border-radius: 3rem;
@@ -1781,7 +1682,7 @@ even when scrolling*/
 
   .hero-headline {
     font-size: 3rem;
-    color: #00F3D5;
+    color: var(--accent-color);
     line-height: 5rem;
     font-weight: 500;
   }
@@ -1933,7 +1834,7 @@ even when scrolling*/
 
   .footer-message {
     font-size: 2.5rem;
-    color: #0F0F0F;
+    color: var(--background-color);
     width: 60%;
   }
 
