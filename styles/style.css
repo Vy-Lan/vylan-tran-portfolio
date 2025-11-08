@@ -140,6 +140,41 @@ svg {
   fill: green;
 }
 
+* {
+cursor: none;
+/*It is now invisible!*/
+}
+
+.cursor {
+  /*The position is fixed so it can stay on screen
+even when scrolling*/
+  position: fixed;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  /*To put it on the center of the cursor*/
+  transform: translate(-50%, -50%);
+  transition: width 0.3s, height 0.3s;
+  /* So the JS can work properly*/
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.hover-cursor {
+  width: 146px;
+  height: 40px;
+  background-image: url('/assets/cursor/cursor-on-hover.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--accent-color); 
+  transition: width 0.3s, height 0.3s;
+  transform: translate(-50%, -50%);
+}
+
 /* Global & Mobile Typography 
 
 ████████ ██    ██ ██████   ██████   ██████  ██████   █████  ██████  ██   ██ ██    ██ 
@@ -311,10 +346,12 @@ p {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #0F0F0F;
+  background-color: rgba(15, 15, 15, 0.75);
+  backdrop-filter: blur(15px);
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 9000;
 }
 
 .header-content {
