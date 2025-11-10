@@ -1877,7 +1877,7 @@ even when scrolling*/
     gap: 50px;
     flex-direction: column;
     /* border: 4px solid black; */
-    margin: 2rem 7rem;
+    margin: 6rem 7rem;
   }
 
   .case-study-layout {
@@ -1888,7 +1888,7 @@ even when scrolling*/
   }
 
   .cs-title-text {
-    font-size: 5rem;
+    font-size: 3rem;
     width: 50%;
   }
 
