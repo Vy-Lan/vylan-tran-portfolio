@@ -1242,7 +1242,7 @@ a.jump-link {
 
   .about-me {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: space-between;
     padding-bottom: 3rem;
     padding-top: 3rem;
