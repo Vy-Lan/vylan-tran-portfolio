@@ -570,6 +570,7 @@ a.jump-link {
   font-weight: 300;
   font-size: 1.5rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .project-preview-title {
@@ -1157,7 +1158,7 @@ a.jump-link {
   }
   
   .hero-headline {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--accent-color);
     line-height: 1.5rem;
   }
@@ -1169,7 +1170,6 @@ a.jump-link {
   }
   
   .hero-body {
-    margin-top: 1rem;
     font-size: 1rem;
     width: 100%;
   }
@@ -1518,8 +1518,6 @@ a.jump-link {
   
   .hero-body {
     font-size: 1.5rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
   }
 
   /* Footer */
