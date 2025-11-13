@@ -1502,7 +1502,7 @@ a.jump-link {
   }
 
   p {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   /* Hero Area */
@@ -1845,7 +1845,7 @@ a.jump-link {
   }
  
   p {
-      font-size: 1.25rem;
+      font-size: 1.125rem;
   }
 
   a {
@@ -1948,6 +1948,10 @@ a.jump-link {
     margin: 2rem 7rem;
   }
 
+  .gallery-description {
+    font-size: 1.125rem;
+  }
+
   .mItem-title {
     font-size: 1.25rem;
   }
@@ -1980,7 +1984,7 @@ a.jump-link {
   }
 
   .about-bio {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
 
   .toolkit-icon img {
