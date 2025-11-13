@@ -882,6 +882,11 @@ a.jump-link {
                                                                                                
 */
 
+.figma-embed {
+  height: 70vh;
+  display: flex;
+}
+
 .project-wrapper {
   display: flex;
   flex-direction: column;
