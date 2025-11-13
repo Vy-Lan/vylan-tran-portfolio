@@ -1334,7 +1334,7 @@ a.jump-link {
     gap: 1.5rem;
     flex-direction: column;
     /* border: 4px solid white; */
-    margin: 0 2rem;
+    margin: 2rem 2rem;
     width: 100vw;
   }
 
@@ -1685,6 +1685,10 @@ a.jump-link {
   }
 
   /* Case Study Page*/
+
+  .case-study-template {
+    margin-top: 5rem;
+  }
 
   .cs-title-text {
     font-size: 3.5rem;
