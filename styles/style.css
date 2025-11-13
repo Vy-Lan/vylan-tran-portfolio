@@ -1035,6 +1035,10 @@ a.jump-link {
 
 @media (min-width: 320px) {
 
+  * {
+  cursor: auto;
+  }
+
   /* Typography */
 
   h1 {
