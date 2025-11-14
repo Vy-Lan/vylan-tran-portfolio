@@ -2278,6 +2278,13 @@ a.jump-link {
   }
 
   /* Project Preview */
+
+  .gallery-title {
+    font-size: 4.5rem;
+  }
+
+
+  /* Project Preview */
   
   .work-project-preview-right {
     padding-left: 10rem;
