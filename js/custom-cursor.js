@@ -1,5 +1,3 @@
-//following custom cursor tutorial on https://dev.to/lensco825/how-to-make-a-custom-cursor-cursor-hover-effects-1ikg
-
 var cursor = document.getElementById('cursor');
 
 document.addEventListener('mousemove', moveCursor)
